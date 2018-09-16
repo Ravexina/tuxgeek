@@ -1,5 +1,5 @@
 /**
- * Reset some basic elements
+ * ss Reset some basic elements
  */
 body, h1, h2, h3, h4, h5, h6,
 p, blockquote, pre, hr,
@@ -59,7 +59,13 @@ img {
   vertical-align: middle;
 }
 
-
+.align-center {
+    clear: both;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align:center;
+}
 
 /**
  * Figures
@@ -124,7 +130,6 @@ a {
   }
 }
 
-
 /**
  * Blockquotes
  */
@@ -148,6 +153,8 @@ blockquote {
  */
 pre,
 code {
+  text-align: left;
+  direction: ltr !important;
   @include relative-font-size(0.9375);
   border: 1px solid $grey-color-light;
   border-radius: 3px;
@@ -169,12 +176,22 @@ pre {
   }
 }
 
+.home {
+ .rss-subscribe{
+	direction:rtl;
+ }
+}
 
+.ltr {
+  text-align: left;
+  direction: ltr;
+}
 
 /**
  * Wrapper
  */
 .wrapper {
+  text-align: right;
   max-width: -webkit-calc(#{$content-width} - (#{$spacing-unit} * 2));
   max-width:         calc(#{$content-width} - (#{$spacing-unit} * 2));
   margin-right: auto;

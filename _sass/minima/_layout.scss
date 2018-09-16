@@ -12,12 +12,12 @@
 
 .site-title {
   @include relative-font-size(1.625);
-  font-weight: 300;
+  font-weight: bold;
   line-height: $base-line-height * $base-font-size * 2.25;
   letter-spacing: -1px;
   margin-bottom: 0;
-  float: left;
-
+  float: right;
+  font-family: shabnam;
   &,
   &:visited {
     color: $grey-color-dark;
@@ -25,7 +25,7 @@
 }
 
 .site-nav {
-  float: right;
+  float: left;
   line-height: $base-line-height * $base-font-size * 2.25;
 
   .nav-trigger {
@@ -37,8 +37,22 @@
   }
 
   .page-link {
+    font-family: samim;
     color: $text-color;
     line-height: $base-line-height;
+
+        display: block;
+        padding: 5px 10px;
+        float: left;
+        padding: 8px;
+        background: #ececec;
+        border-radius: 16px;
+        margin-top: 7px;
+
+        &:hover {
+                text-decoration: none;
+                background-color: #ccc;
+        }
 
     // Gaps between nav items, but not on the last one
     &:not(:last-child) {
@@ -89,8 +103,6 @@
     }
 
     .page-link {
-      display: block;
-      padding: 5px 10px;
 
       &:not(:last-child) {
         margin-right: 0;
@@ -106,12 +118,14 @@
  * Site footer
  */
 .site-footer {
+  direction: rtl;
   border-top: 1px solid $grey-color-light;
   padding: $spacing-unit 0;
 }
 
 .footer-heading {
-  @include relative-font-size(1.125);
+  font-size: 1em;
+  font-family: shabnam;
   margin-bottom: $spacing-unit / 2;
 }
 
@@ -122,6 +136,7 @@
 }
 
 .footer-col-wrapper {
+  font-family: samim;
   @include relative-font-size(0.9375);
   color: $grey-color;
   margin-left: -$spacing-unit / 2;
@@ -176,6 +191,8 @@
  * Page content
  */
 .page-content {
+  #text-align: right;
+  #direction: rtl;
   padding: $spacing-unit 0;
   flex: 1;
 }
@@ -186,10 +203,14 @@
 
 .post-list-heading {
   @include relative-font-size(1.75);
+  font: 1.8em Vazir;
+  font-weight: bold;
+  direction: rtl;
 }
 
 .post-list {
-  margin-left: 0;
+  direction: rtl;
+  margin-right: 0;
   list-style: none;
 
   > li {
@@ -203,6 +224,7 @@
 }
 
 .post-link {
+  font: 1em vazir;
   display: block;
   @include relative-font-size(1.5);
 }
@@ -217,9 +239,12 @@
 }
 
 .post-title {
-  @include relative-font-size(2.625);
+  direction: rtl;
   letter-spacing: -1px;
   line-height: 1;
+  font-size: 2em;
+  font-family: Vazir;
+  font-weight: bold;
 
   @include media-query($on-laptop) {
     @include relative-font-size(2.25);
@@ -227,8 +252,9 @@
 }
 
 .post-content {
+  font-family: samim;
   margin-bottom: $spacing-unit;
-
+  direction: rtl;
   h2 {
     @include relative-font-size(2);
 
