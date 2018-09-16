@@ -25,7 +25,7 @@ OpenGL Utility Toolkit که اختصارا GLUT‌ خوانده می‌شود، 
 
 نمایی از یک بازی شطرنج ساخته شده توسط FreeGLUT:
 
-[![chess-freeGLUT](http://tuxgeek.ir/wp-content/uploads/2015/02/chessdemo.png)](http://tuxgeek.ir/wp-content/uploads/2015/02/chessdemo.png)در این پست به نحوه نصب و استفاده از FreeGLUT (جایگزین متن باز GLUT) در توزیع Ubuntu خواهیم پرداخت، به طبع نصب در سایر توزیع‌ها به صورت مشابه امکان‌پذیر خواهد بود.
+[![chess-freeGLUT](/assets/images/wp/2015/02/chessdemo.png)](/assets/images/wp/2015/02/chessdemo.png)در این پست به نحوه نصب و استفاده از FreeGLUT (جایگزین متن باز GLUT) در توزیع Ubuntu خواهیم پرداخت، به طبع نصب در سایر توزیع‌ها به صورت مشابه امکان‌پذیر خواهد بود.
 
 more
 

@@ -51,7 +51,7 @@ categories:
 هرچند هنوز هم کارکترهای مورد علاقه‌ی دیگه ای هم دارم که هنوز زنده باشند، که تو صدرشون تنها ملکه واقعی وستروس سرسی هست :D .
 
 
-[![Cersei](http://tuxgeek.ir/wp-content/uploads/2017/08/mpv-shot0001-300x169.jpg)](http://tuxgeek.ir/wp-content/uploads/2017/08/mpv-shot0001.jpg)
+[![Cersei](/assets/images/wp/2017/08/mpv-shot0001-300x169.jpg)](/assets/images/wp/2017/08/mpv-shot0001.jpg)
 
 امروز خیلی از کسانی که سریال بازی تاج و تخت رو دنبال می‌کنند خوشحال هستند، بالاخره به یکی از چیزایی که میخواستند بعد از 7 فصل دنبال کردن سریال رسیدن، همونطور که بعد از کشته شدن جافری همه خوشحال بودن (منم انصافا جشن گرفته بودم) امروز هم بعد از حذف شدن پیتر بیلیش که یک کارکتر منفور بود خوشحالند (که من عذا گرفتم).
 
@@ -113,12 +113,12 @@ categories:
 این صحنه رو یادتونه؟
 
 
-[![](http://tuxgeek.ir/wp-content/uploads/2017/08/1-300x179.png)](http://tuxgeek.ir/wp-content/uploads/2017/08/1.png)یادتونه بعدش چی شد؟
+[![](/assets/images/wp/2017/08/1-300x179.png)](/assets/images/wp/2017/08/1.png)یادتونه بعدش چی شد؟
 
 
-[![](http://tuxgeek.ir/wp-content/uploads/2017/08/Littlefinger-and-Ned-Stark-300x176.jpg)](http://tuxgeek.ir/wp-content/uploads/2017/08/Littlefinger-and-Ned-Stark.jpg)خلاصه ما علاقمند بودیم صحنه مشابه‌ای رو برای این اتفاق هم ببینیم ولی دیگه قسمت نشد:
+[![](/assets/images/wp/2017/08/Littlefinger-and-Ned-Stark-300x176.jpg)](/assets/images/wp/2017/08/Littlefinger-and-Ned-Stark.jpg)خلاصه ما علاقمند بودیم صحنه مشابه‌ای رو برای این اتفاق هم ببینیم ولی دیگه قسمت نشد:
 
 
-[![](http://tuxgeek.ir/wp-content/uploads/2017/08/22-300x150.jpg)](http://tuxgeek.ir/wp-content/uploads/2017/08/22.jpg)
+[![](/assets/images/wp/2017/08/22-300x150.jpg)](/assets/images/wp/2017/08/22.jpg)
 
 حداقل چیزی که برای من داشت اینکه دیگه نه منتظر فصل بعدم، نه میخوام بدونم بعدش چی میشه ...

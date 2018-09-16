@@ -17,7 +17,7 @@ categories:
 شاید شما هم جزو کسانی باشید که علاقمند هستید در XAMPP به جای MySQL از 
 [MariaDB](https://mariadb.org/)استفاده نمایید، در ادامه به ذکر مراحل مورد نیاز جهت مهاجرت به MariaDB در XAMPP  خواهیم پرداخت.
 
-[![mariadb-fd-logo](http://tuxgeek.ir/wp-content/uploads/2014/09/ice_logo-5dcea9e47b780ff52f75c3c3304d54827f56211e-150x150.png)](http://tuxgeek.ir/wp-content/uploads/2014/09/ice_logo-5dcea9e47b780ff52f75c3c3304d54827f56211e.png)این مراحل تنها شامل جابه جایی برخی فولدر ها و یک ویرایش ناچیز است، پس از طی کردن این مراحل قادر خواهید بود  MariaDB را همانند MySQL به کار بگیرید، حتی ممکن است متوجه مقداری بهبود عملکرد شوید که تنها یکی از مزایای MariaDB است، در پست های آتی بیشتر به MariaDB خواهیم پرداخت.
+[![mariadb-fd-logo](/assets/images/wp/2014/09/ice_logo-5dcea9e47b780ff52f75c3c3304d54827f56211e-150x150.png)](/assets/images/wp/2014/09/ice_logo-5dcea9e47b780ff52f75c3c3304d54827f56211e.png)این مراحل تنها شامل جابه جایی برخی فولدر ها و یک ویرایش ناچیز است، پس از طی کردن این مراحل قادر خواهید بود  MariaDB را همانند MySQL به کار بگیرید، حتی ممکن است متوجه مقداری بهبود عملکرد شوید که تنها یکی از مزایای MariaDB است، در پست های آتی بیشتر به MariaDB خواهیم پرداخت.
 
 more
 

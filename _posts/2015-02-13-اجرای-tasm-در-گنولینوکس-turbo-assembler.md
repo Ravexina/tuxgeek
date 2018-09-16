@@ -39,7 +39,7 @@ mkdir ~/tasm
 حال باید DosBox را نصب نماییم، برای اینکار میتوانید از Software Center یا مدیربسته توزیع مورد استفاده خود بهره بگیرید. برای مثال در توزیع های خانواده Debian که از apt-get استفاده می‌کنند، دستور زیر بسته DosBox را نصب خواهد کرد:
 
 sudo apt-get install dosboxdos
-![dosbox](http://tuxgeek.ir/wp-content/uploads/2015/02/12.png)
+![dosbox](/assets/images/wp/2015/02/12.png)
 
 پس از تکمیل مراحل نصب، داس باکس را اجرا نمایید. برای این منظور می‌توانید در ترمینال وارد کنید dosbox.ففدر DosBox‌ باید شاخه‌ی tasm که در مرحله اول ساخته‌ایم را سوار نماییم (mount کنیم)، به این منظور در dosbox وارد کنید:
 

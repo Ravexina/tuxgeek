@@ -20,7 +20,7 @@ categories:
 
 SliTaz زنده بهطور پیشفرض از مدیر پنجره بسیار سبک و پایدار OpenBox استفاده میکند که به خوبی تنظیم شده ، همچنین میتوانید XFCE ، Pekwm ، JWM  و یا JWM  را نصب و استفاده نمایید .
 
-[![3](http://tuxgeek.ir/wp-content/uploads/2012/04/3.png)](http://tuxgeek.ir/wp-content/uploads/2012/04/3.png)
+[![3](/assets/images/wp/2012/04/3.png)](/assets/images/wp/2012/04/3.png)
 
 SliTaz در سیستم های جدید در کمتر از 10 ثانیه بوت میشود و در حالت زنده میتواند به طور کامل از دستگاه های همچون cd ، usb و ... در رم بارگزاری شده و سیستمی پایدار و امن را ایجاد نماید .
 در صورتی که slitaz را به صورت زنده و با استفاده از Cd Drive به کار میگیرید ، میتوانید پس از بارگزاری دیسک زنده آن را خارج نموده و از cd drive خود به منظور دیگری استفاده نمایید .
@@ -39,12 +39,12 @@ more
 
 SliTaz به سیستمی با پردازنده i486 یا x86 و 198 مگابایت حافظه اصلی نیاز دارد .
 
-[![slitaz-bootmenu-20120212](http://tuxgeek.ir/wp-content/uploads/2012/04/slitaz-bootmenu-20120212-300x235.png)](http://tuxgeek.ir/wp-content/uploads/2012/04/slitaz-bootmenu-20120212.png)
+[![slitaz-bootmenu-20120212](/assets/images/wp/2012/04/slitaz-bootmenu-20120212-300x235.png)](/assets/images/wp/2012/04/slitaz-bootmenu-20120212.png)
 
 نصب SliTaz به صورت کاملا اتوماتیک به دو صورت گرافیکی و یا مبتنی بر متن امکانپذیر است ، همچنین شما میتوانید پارتیشن بندی را توسط برنامه ای مانند Gparted قبل از ورود به محیط نصب انجام دهید .
 
 
-[![1](http://tuxgeek.ir/wp-content/uploads/2012/04/1.png)](http://tuxgeek.ir/wp-content/uploads/2012/04/1.png)
+[![1](/assets/images/wp/2012/04/1.png)](/assets/images/wp/2012/04/1.png)
 
 بسته ها :
 
@@ -57,7 +57,7 @@ mtPaint, Viewnior, Transmission, AlsaPlayer, Osmo personal organizer, Zoho docum
 
 شما میتوانید برنامه هایی برای پارتیشن بندی ، مشاهده لوگ ها ، مدیریت فایل ، تنظیم سخت افزار و شبکه ، ابزار رایت ، Mount دستگاه ها و ... را پیدا کنید ، در حقیقت شما حتی میتوانید کنترل پنل را پیدا کنید که شامل تنظیمات میزکار ، startup ، سخت افزار و گزینه های تنظیم سیستم میباشد.
 
-[![8](http://tuxgeek.ir/wp-content/uploads/2012/04/8.png)](http://tuxgeek.ir/wp-content/uploads/2012/04/8.png)
+[![8](/assets/images/wp/2012/04/8.png)](/assets/images/wp/2012/04/8.png)
 
 در میان 3350 بسته موجود برای Slitaz Gnu/Linux شما میتوانید هر چیز که مورد نیازتان هست را بیابید تا میزکاری کاملا گرافیکی برای خود ایجاد نمایید ، همچون ابزاری برای فعالیت های گرافیکی چون GIMP یا Inkscape ، و یا ویرایش ویدئو با Kino ، شما میتوانید بسته های مورد نیاز خود را در http://pkgs.slitaz.org جستجو نمایید .
 
@@ -65,7 +65,7 @@ mtPaint, Viewnior, Transmission, AlsaPlayer, Osmo personal organizer, Zoho docum
 
 SliTaz به نحوی طراحی شده تا به عنوان وب سروری قدرتمند با استفاده از LightTPD/PHP پایدار فعالیت نماید ، که البته به صورت پیشفرض نصب نشده است ، امکان پشتیبانی از CGI ، Perl ، Python و Squid موجود است .
 
-[![4](http://tuxgeek.ir/wp-content/uploads/2012/04/4.png)](http://tuxgeek.ir/wp-content/uploads/2012/04/4.png)
+[![4](/assets/images/wp/2012/04/4.png)](/assets/images/wp/2012/04/4.png)
 همچنین قابلیت مرور وب به صورت امن توسط Tor امکان پذیر است .
 
 البته SliTaz میتواند محیط توسعه نرم افزار را برای شما با استفاده از کامپایلر GCC و  Geany IDE و  تمامی کتابخانه ها تامین نماید .
@@ -74,7 +74,7 @@ SliTaz به نحوی طراحی شده تا به عنوان وب سروری قد
 
 روش و ابزار جدید مدیریت و تنظیمات در SliTaz 4.0 کنترل پنل TazPanel میباشد که مبتنی بر وب بوده و با آدرس http://tazpanel:82 در دسترس میباشد . شما میتوانید از  این پنل برای اموری همچون افزود و حذف کاربر و ... استفاده نمایید .
 
-[![6](http://tuxgeek.ir/wp-content/uploads/2012/04/6.png)](http://tuxgeek.ir/wp-content/uploads/2012/04/6.png)
+[![6](/assets/images/wp/2012/04/6.png)](/assets/images/wp/2012/04/6.png)
 
 نتیجه :
 
