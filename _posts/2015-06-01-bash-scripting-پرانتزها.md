@@ -22,7 +22,7 @@ Parenthesis: () (plural parentheses - پرانتز)
 Brackets: [] (square brackets - براکت)
 Braces: {} (curly braces - گیومه)
 
-** دو پرانتز - Parenthesis در Bash Scripting**
+**دو پرانتز - Parenthesis در Bash Scripting**
 
 از دو پرانتز برای انجام عملیات‌های محاسباتی استفاده می‌شود:
 
@@ -38,7 +38,7 @@ echo $((variable + 2))
 
 نکته: درصورتی که نیاز دارید مقدار درون دو پرانتز را چاپ کنید یا از مقدار آن استفاده نمایید قبل از دوپرانتز $ قرار دهید.
 
-** براکت - Brackets در Bash Scripting**
+**براکت - Brackets در Bash Scripting**
 
 براکت برای ساخت شرط به کار میرود:
 
@@ -68,7 +68,7 @@ $ if [ $((VAR)) -eq 2 ]
 
 yes
 
-** دو براکت - Double Brackets**
+**دو براکت - Double Brackets**
 
 استفاده از دو براکت قابلیت‌های براکت را افزایش میدهد، برای مثال میتوانید از عبارات با قاعده (Regular Expression) استفاده کنید:
 
@@ -78,7 +78,7 @@ if [ $VAR =~ [a-z] ]; then echo 'is'; fi -->
 if [[ $VAR =~ [a-z] ]]; then echo 'is'; fi --> 
 صحیح
 
-** گیومه - Braces در Bash Scripting**
+**گیومه - Braces در Bash Scripting**
 
 از گیومه یا curly braces برای محدود کردن یک متغیر استفاده میشود، برای مثال:
 
