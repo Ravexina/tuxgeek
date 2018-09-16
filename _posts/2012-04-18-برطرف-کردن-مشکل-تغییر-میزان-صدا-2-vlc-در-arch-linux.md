@@ -26,5 +26,5 @@ more
 /etc/pulse/daemon.conf
 سپس مقدار گزینه زیر را به No تغییر داده و خط را از حالت توضیح خارج نمایید :
 
-#flat-volumes = yes
+# flat-volumes = yes
 اکنون PulseAudio را ریست نمایید ، مشکل باید حل شده باشد .

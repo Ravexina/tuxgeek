@@ -30,7 +30,7 @@ OpenGL Utility Toolkit که اختصارا GLUT‌ خوانده می‌شود، 
 more
 
 
-##نصب FreeGLUT توسط مدیربسته (پیشنهادی):
+## نصب FreeGLUT توسط مدیربسته (پیشنهادی):
 
 
 مراحل نصب و بکارگیری بسیار ساده است، تمام بسته‌های مورد نیاز در مخازن به صورت باینری موجود و توسط مدیربسته قابل نصب می‌باشند.
@@ -44,7 +44,7 @@ sudo apt-get install freeglut3-dev build-essential
 g++ -o exam1 exam1.cpp -lglut -lGL
 
 
-##نصب FreeGLUT به صورت Manual:
+## نصب FreeGLUT به صورت Manual:
 
 ابتدا FreGLUT را از آدرس زیر دریافت نمایید:
 
@@ -62,7 +62,7 @@ make install
 
 پروسه کامپایل و نصب طی خواهد شد، حال همانند سابق میتوانید فایل‌های منبع خود را کامپایل و استفاده نمایید، توجه کنید که برای الحاق کتابخانه FreeGLUT به صورت زیر اقدام کنید:
 
-#include <GL/glut.h>
+# include <GL/glut.h>
 منابع:
 
 http://ubuntuforums.org/showthread.php?t=345177
