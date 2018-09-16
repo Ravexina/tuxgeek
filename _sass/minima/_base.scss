@@ -146,6 +146,12 @@ blockquote {
   }
 }
 
+blockquote.ltr {
+   border-right: 0;
+   padding-right: 0 $spacing-unit / 2;
+   border-left: 4px solid $grey-color-light;
+   padding-left: $spacing-unit / 2;
+}
 
 
 /**
