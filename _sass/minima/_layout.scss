@@ -255,6 +255,7 @@
   font-family: samim;
   margin-bottom: $spacing-unit;
   direction: rtl;
+  text-align: justify;
   h2 {
     @include relative-font-size(2);
 
