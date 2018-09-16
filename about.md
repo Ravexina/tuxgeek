@@ -1,18 +1,13 @@
 ---
 layout: page
-title: About
-permalink: /about/
+title: درباره
+permalink: /درباره/
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](https://jekyllrb.com/)
+تاکس گیک - وبلاگی پیرامون نرم‌افزار آزاد و گنو لینوکس سالهاست مکانی برای نگارش مواردیه که برام جالبه... می‌تونه درباره گنو، لینوکس تکنولوژی باشه یا زندگی و هر چیز دیگه.  
 
-You can find the source code for Minima at GitHub:
-[jekyll][jekyll-organization] /
-[minima](https://github.com/jekyll/minima)
+سالها بلاگ روی وردپرس بود. امروز ۱۵ سپتامبر ۲۰۱۸ به صورت موقت مطالبم رو به jekyll انتقال دادم، بخشی از اطلاعات در دسترس نیست فعلا تا پروسه انتقال تکمیل بشه...
 
-You can find the source code for Jekyll at GitHub:
-[jekyll][jekyll-organization] /
-[jekyll](https://github.com/jekyll/jekyll)
+پوسته مورد استفاده هم پوسته پیش‌فرض jekyll هست که کمی دست بردم توش تا فقط فارسی رو قابل تحمل به نمایش بگذاره، تا بعد.
 
-
-[jekyll-organization]: https://github.com/jekyll
+میلاد، ۲۴ شهریور ۱۳۹۷
