@@ -18,9 +18,9 @@ categories:
 
 آشنایی با اصطلاحات:
 
-- Parenthesis: () (plural parentheses - پرانتز)
-- Brackets: [] (square brackets - کروشه)
-- Braces: {} (curly braces - آکولاد)
+- Parenthesis: () (Plural parentheses - پرانتز)
+- Brackets: [] (Square brackets - کروشه)
+- Curly brackets: {} (Curly braces - آکولاد)
 
 **دو پرانتز - Parenthesis در Bash Scripting**
 
