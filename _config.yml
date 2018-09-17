@@ -26,10 +26,15 @@ markdown: kramdown
 theme: minima
 plugins:
   - jekyll-feed
+  - jekyll-paginate
 
 # disqus
 disqus:
   shortname: tuxgeek
+
+# Paginate settings
+paginate: 20
+paginate_path: "/index/:num/"
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
