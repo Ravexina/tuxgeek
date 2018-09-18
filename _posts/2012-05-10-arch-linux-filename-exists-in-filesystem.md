@@ -22,7 +22,6 @@ categories:
 
 [نحوه برطرف سازی خطای FILENAME exists in Filesystem در مدیر بسته Pacman آرچ لینوکس .](http://tuxgeek.ir/arch-linux-filename-exists-in-filesystem/)
 
-more
 
 
 چرا ؟ دلیل بروز این خطا چیست ؟

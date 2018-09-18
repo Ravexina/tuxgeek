@@ -27,7 +27,6 @@ OpenGL Utility Toolkit که اختصارا GLUT‌ خوانده می‌شود، 
 
 [![chess-freeGLUT](/assets/images/wp/2015/02/chessdemo.png)](/assets/images/wp/2015/02/chessdemo.png)در این پست به نحوه نصب و استفاده از FreeGLUT (جایگزین متن باز GLUT) در توزیع Ubuntu خواهیم پرداخت، به طبع نصب در سایر توزیع‌ها به صورت مشابه امکان‌پذیر خواهد بود.
 
-more
 
 
 ## نصب FreeGLUT توسط مدیربسته (پیشنهادی):
