@@ -133,6 +133,10 @@
 .social-media-list {
   list-style: none;
   margin-left: 0;
+  ul, li{
+      display: inline-block;
+      margin-right: 5px;
+    }
 }
 
 .footer-col-wrapper {
@@ -152,11 +156,13 @@
 .footer-col-1 {
   width: -webkit-calc(35% - (#{$spacing-unit} / 2));
   width:         calc(35% - (#{$spacing-unit} / 2));
+  text-align: left;
 }
 
 .footer-col-2 {
   width: -webkit-calc(20% - (#{$spacing-unit} / 2));
   width:         calc(20% - (#{$spacing-unit} / 2));
+  direction: ltr;
 }
 
 .footer-col-3 {
