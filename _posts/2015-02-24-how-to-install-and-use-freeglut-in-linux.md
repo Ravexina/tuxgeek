@@ -25,7 +25,9 @@ OpenGL Utility Toolkit که اختصارا GLUT‌ خوانده می‌شود، 
 
 نمایی از یک بازی شطرنج ساخته شده توسط FreeGLUT:
 
-[![chess-freeGLUT](/assets/images/wp/2015/02/chessdemo.png)](/assets/images/wp/2015/02/chessdemo.png)در این پست به نحوه نصب و استفاده از FreeGLUT (جایگزین متن باز GLUT) در توزیع Ubuntu خواهیم پرداخت، به طبع نصب در سایر توزیع‌ها به صورت مشابه امکان‌پذیر خواهد بود.
+![chess-freeGLUT](/assets/images/posts/others/chessdemo.png)
+
+در این پست به نحوه نصب و استفاده از FreeGLUT (جایگزین متن باز GLUT) در توزیع Ubuntu خواهیم پرداخت، به طبع نصب در سایر توزیع‌ها به صورت مشابه امکان‌پذیر خواهد بود.
 
 
 
@@ -34,38 +36,51 @@ OpenGL Utility Toolkit که اختصارا GLUT‌ خوانده می‌شود، 
 
 مراحل نصب و بکارگیری بسیار ساده است، تمام بسته‌های مورد نیاز در مخازن به صورت باینری موجود و توسط مدیربسته قابل نصب می‌باشند.
 
-بسته‌های build-essential و freeglut3-dev را توسط apt-get نصب نمایید:
-
+بسته‌های `build-essential` و `freeglut3-dev` را توسط `apt-get` نصب نمایید:
+{% highlight bash %}
 sudo apt-get install freeglut3-dev build-essential
+{% endhighlight %}
 
 کار تمام است، فایل منبع برنامه خود را با پارامترهای زیر کامپایل کرده و نهایتا اجرا نمایید:
 
+
+{% highlight bash %}
 g++ -o exam1 exam1.cpp -lglut -lGL
+{% endhighlight %}
 
 
 ## نصب FreeGLUT به صورت Manual:
 
 ابتدا FreGLUT را از آدرس زیر دریافت نمایید:
-
+{% highlight code %}
 http://freeglut.sourceforge.net/index.php#download
+{% endhighlight %}
+
 سپس نسخه دانلود شده را از حالت فشرده خارج کنید.
 
+{% highlight bash %}
 zcat freeglut-2.2.0.tar.bz2 | tar -vxf
+{% endhighlight %}
 
 توجه نمایید که ممکن است فایل دانلود شده توسط شما با توجه به نسخه‌ای که دانلود کرده‌اید دارای شماره نسخه متفاوتی باشد.
 به پوشه استخراج شده وارد شوید و دستورات زیر را اجرا نمایید:
 
+{% highlight bash %}
 ./configure
 make all
 make install
+{% endhighlight %}
 
 پروسه کامپایل و نصب طی خواهد شد، حال همانند سابق میتوانید فایل‌های منبع خود را کامپایل و استفاده نمایید، توجه کنید که برای الحاق کتابخانه FreeGLUT به صورت زیر اقدام کنید:
 
+{% highlight c %}
 # include <GL/glut.h>
+{% endhighlight %}
 منابع:
 
-http://ubuntuforums.org/showthread.php?t=345177
 
+{% highlight code %}
+http://ubuntuforums.org/showthread.php?t=345177 
 http://freeglut.sourceforge.net/docs/install.php
-
 https://www.opengl.org/discussion_boards/showthread.php/172614-undefined-reference-to-glutInt
+{% endhighlight %}
