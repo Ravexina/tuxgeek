@@ -16,16 +16,19 @@ categories:
 
 با کتاب شماره یک مدیریت سیستم های لینوکسی آشنا شوید؛ کتاب بزرگی پیش روی شماست، بزرگ نه به خاطر هزار و چند صفحه‌ای که دارد، بلکه به دلیل وسعت و گستره‌ی موضوعاتی که به بهترین شکل پوشش داده است. نسخه چهارم این کتاب سرشار از اطلاعات،در سال ۲۰۱۰ پس از بازنگری مجدد و تحت پوشش قرار دادن توزیع‌های برجسته‌ی گنو/لینوکس همچون Ubuntu، RHEL و openSUSE در بیستمین سال نگارش خود منتشر شد.
 
-[![UNIX and Linux System Administration Handbook 3D Front View](/assets/images/wp/2015/08/3DFrontView-286x300.jpg)](/assets/images/wp/2015/08/3DFrontView.jpg)**UNIX and Linux System Administration Handbook**
+![UNIX and Linux System Administration Handbook 3D Front View](/assets/images/posts/others/UNIX-and-Linux-System-Administration-Handbook-4th.png)
+
+**UNIX and Linux System Administration Handbook**
+{: .align-center}
+
 
 این کتاب یک مرجع ارزشمند برای مدیران سیستم‌ تازه‌کار و باتجربه است که بهترین روش‌ها را در مواجه با هر جنبه از مدیریت سیستم به صورت عملی و همراه با مثال‌هایی از مواردی که به صورت روزانه با آنها درگیر خواهید بود ارائه می‌نماید.
 
 کتاب در ۳۲ فصل مباحثی همچون: مدیریت فضای ذخیره‌سازی، طراحی و مدیریت شبکه، میزبانی وب، مدیریت و پیکره‌بندی نرم‌افزار، تحلیل کارایی، تعامل با ویندوز، اسکریپت‌نویسی، مجازی‌سازی، DNS، امنیت و ... را تحت پوشش قرار می‌دهند.
 
 
-[caption id="attachment_596" align="aligncenter" width="300"]
-[![unix.and.linux.system.administration.handbook.cover.explanation](/assets/images/wp/2015/08/Cover.Explanation-300x180.jpg)](/assets/images/wp/2015/08/Cover.Explanation.jpg) 
-توضیح آیتم های روی جلد کتاب[/caption]
+#### توضیح آیتم های روی جلد کتاب:
+![unix.and.linux.system.administration.handbook.cover.explanation][cover-explained]
 
 می‌توان گفت به هرآنچه که برای ارتقاع اطلاعات خود به مرحله بعد نیازمند هستید در این کتاب نهفته است. نحوه نگار کتاب ساده و شیواست و با بهره‌مند بودن از برخی تکنیک‌های نگارش، خواندن آن برای هرکس بسیار لذت بخش خواهد بود.
 
@@ -45,3 +48,12 @@ categories:
 [#3](http://www.amazon.com/gp/customer-reviews/R3OWIDHGPQ7L9W/ref=cm_cr_pr_rvw_ttl?ie=UTF8&ASIN=0131480057) ۱۳ سال پیش نسخه سوم کتاب رو گرفتم و تقریبا تمامش رو تو چند هفته خوندم، حتی بعد از ۱۳ سال هنوز هم بهش رجوع میکنم. این یک کتاب واقعا کلاسیکه و تقریبا میشه گفت تنها کتابی هست که برای مدیریت عمومی یونیکس نیاز دارید. اگه تازه دارید یونیکس و لینوکس رو شروع می‌کنید این کتابیه که باید بگیرید. تو بیش از هزار صفحه یک تون اطلاعات مفید رو نه تنها برای یه حرفه‌ای شدن تو لینوکس بهتون ارائه می‌کنه، بلکه باعث می‌شه یه گیک بشید. یادم میاد بعد از خوندن فصل DNS چند شب رو بیدار موندم تا dns bind server خودم رو راه بندازم.
 
 [#4](http://www.amazon.com/gp/customer-reviews/R152UVP3S7X797/ref=cm_cr_pr_rvw_ttl?ie=UTF8&ASIN=0131480057) کتاب رو برای کارم لازم داشتم، با لینوکس اصلا آشنا نبودم، حالا یک مدیر سیستم لینوکس هستم، میتونم بگم تو ۴ ماه گذشته اطلاعاتم رو ۱۰۰۰ برابر افزایش دادم. سعی کردم آموزش های آنلاین رو بخونم. ببینم مردم چی پیشنهاد میدن ولی این کتاب بهم یک درک عالی از سیستم عامل داد. خیلی شفاف بود. مسائل رو فقط تئوری ارائه نمی‌کنه. تقریبا همه چیز رو خیلی ساده توضیح داده و جلوتر وارد مباحث پیچیده می‌شه. کتاب فوق العادیه.
+
+
+منابع تصاویر:  
+[تصویر کاور از good readeres][goodreaders]  
+[تصویر کاور به همراه توضیحات][cover-exp-link]
+
+[goodreaders]: https://goodreads.com
+[cover-exp-link]: https://lisahaneyillustration.blogspot.com/2011/09/i-was-asked-by-few-people-to-explain.html
+[cover-explained]: /assets/images/posts/others/Cover.Explanation.jpg
