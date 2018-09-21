@@ -31,8 +31,8 @@ plugins:
   - jekyll-sitemap
 
 # disqus
-disqus:
-  shortname: tuxgeek
+#disqus:
+#  shortname: tuxgeek
 
 # Paginate settings
 paginate: 20
