@@ -20,29 +20,41 @@ categories:
 
 ابتدا باید facter را نصب نماییم، برای این منظور میتوان از مدیربسته سیستم‌عامل استفاده کرد. برای مثال در Debian یا Ubuntu:
 
+{% highlight bash %}
 sudo apt-get install facter
+{% endhighlight %}
 
 **نصب Facter به صورت Manual:**
 
 برای نصب facter در سیستم‌هایی که این بسته را در مخازن خود ندارند ابتدا آخرین نسخه این ابزار را از آدرس زیر دانلود نمایید:
 
+{% highlight bash %}
 https://downloads.puppetlabs.com/facter/?C=N;O=D
+{% endhighlight %}
+
 سپس بعد از extract کردن آرشیو دانلود شده دستور زیر را اجرا کنید:
 
+{% highlight bash %}
 ruby facter*/install.rb
+{% endhighlight %}
 
 **استفاده از Facter**
 
 
 حال برای استفاده از facter میتوان از دستور زیر استفاده کرد:
 
+{% highlight bash %}
 facter
+{% endhighlight %}
 
 دستور فوق اطلاعات مفیدی از سیستم را به نمایش می‌گذارد، برای یافتن اینکه سیستم Virtual بوده یا Physical دستور را به این صورت اجرا کنید:
 
+{% highlight bash %}
 facter | grep is_virtual
+{% endhighlight %}
 
 نتیجه به صورت زیر true یا false خواهد بود:
 
-is_virtual 
-=> false
+{% highlight bash %}
+is_virtual => false
+{% endhighlight %}
