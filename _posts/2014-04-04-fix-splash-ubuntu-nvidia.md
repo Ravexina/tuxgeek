@@ -32,31 +32,40 @@ categories:
 
 برای مثال در Ubuntu:
 
+{% highlight bash %}
 sudo apt-get install hwinfo
+{% endhighlight %}
 و یا در Arch Linux:
 
+{% highlight bash %}
 sudo pacman -S hwinfo
+{% endhighlight %}
 
 سپس با دستور زیر لیست وضوح های پشتیبانی شده را به دست آورید:
-
+{% highlight bash %}
 sudo hwinfo --framebuffer
+{% endhighlight %}
 
 فایل grub که در آدرس زیر قرار دارد را با ویرایشگر مورد علاقه خود و با دسترسی root باز کنید.
-
+{% highlight bash %}
 /etc/default/grub
+{% endhighlight %}
 
 سپس به دنبال GRUB_GFXMODE بگردید و پس از آن مقدار زیر را وارد نمایید.
 
+{% highlight bash %}
 GRUB_GFXPAYLOAD_LINUX=1024x768x24
+{% endhighlight %}
 
 توجه نمایید که به جای 1024x768x24 باید وضوح مورد نظر خود را به طور کامل به همراه عمق وارد نمایید
 ( وضوح : 1024x768، عمق: 24  )، این مقدار را باتوجه به وضوح های پشتیبانی شده که در مراحل قبل لیستی از آنها را به دست آوردیم انتخاب کنید.
 
 سپس دستورات زیر را اجرا کرده و سیستم را مجددا راه اندازی نمایید ( reboot ) مشکل باید برطرف شده باشد.
 
+{% highlight bash %}
 echo FRAMEBUFFER=y | sudo tee /etc/initramfs-tools/conf.d/splash
 sudo update-grub2
 sudo update-initramfs -u
-
+{% endhighlight %}
 منبع: بر اساس 
 [askubuntu ](#)

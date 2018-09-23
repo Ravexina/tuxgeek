@@ -22,8 +22,12 @@ VLC یکی از قدرتمندترین ابزار پخش صوت و تصویر د
 
 فایل را در ویرایشگر مورد علاقه خود باز نمایید :
 
+{% highlight bash %}
 /etc/pulse/daemon.conf
+{% endhighlight %}
 سپس مقدار گزینه زیر را به No تغییر داده و خط را از حالت توضیح خارج نمایید :
 
+{% highlight bash %}
 # flat-volumes = yes
+{% endhighlight %}
 اکنون PulseAudio را ریست نمایید ، مشکل باید حل شده باشد .
