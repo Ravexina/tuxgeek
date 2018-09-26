@@ -77,7 +77,11 @@ user@localhost:~$ gedit
 
 {% highlight bash %}
 fg %1
+{% endhighlight %}
+
 mousepad را در foreground اجرا میکند، یا:
+
+{% highlight bash %}
 bg %1
 {% endhighlight %}
 
