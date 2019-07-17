@@ -3,7 +3,7 @@ layout: post
 title: 26 سال Slackware
 permalink: /distribution/happy-birthday-slackware
 author: milad
-date: 2019-07-17 00:36:00 +0430
+date: 2019-07-17 04:36:00 +0430
 categories: 
 - distribution
 ---
