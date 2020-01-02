@@ -1,7 +1,7 @@
 ---
 layout: post
 title: گیت‌هاب به جای گیت‌لب 
-permalink: /cat/back-to-github-from-gitlab
+permalink: /back-to-github-from-gitlab
 author: milad
 date: 2020-01-02 17:45:00 +0330
 categories: 
