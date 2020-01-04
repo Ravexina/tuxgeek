@@ -3,7 +3,7 @@ layout: post
 title: ارتباط SSL امن نیست
 permalink: /security/firefox-ssl-connection-not-secure
 author: milad
-date: 2020-01-02 17:45:00 +0330
+date: 2020-01-05 00:01:58 +0330
 categories: 
 - security
 ---
