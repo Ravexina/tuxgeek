@@ -3,7 +3,7 @@ layout: post
 title: چطور اشتباهی فایلی رو پاک نکنیم؟
 permalink: /linux/protect-files-from-accidentally-being-removed
 author: milad
-date: 2020-04-22 15:00:0 +0430
+date: 2020-04-22 16:16:00 +0430
 categories: 
 - Linux
 ---
