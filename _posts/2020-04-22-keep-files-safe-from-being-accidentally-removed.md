@@ -112,7 +112,7 @@ trash-put file
 و پیشنهاد میشه rm رو غیرفعال کنیم. نه اینکه alias کنیم به دستورات فوق:
 
 {% highlight bash %}
-alias rm='echo you should use "gio trash" or "trash-put" instead!'
+alias rm='echo you should use \"gio trash\" or \"trash-put\" instead!'
 {% endhighlight %}
 
 و قطعا می‌دونید اگر بخواید rm رو اجرا کنید می‌تونید alias رو نادیده بگیرید:
