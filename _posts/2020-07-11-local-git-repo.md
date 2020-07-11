@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Git: افزودن Local Repo به عنوان Remote
+title: Git - افزودن Local Repo به عنوان Remote
 permalink: /development/git-local-remote-repository
 author: milad
 date: 2020-07-11 16:39:00 +0430
