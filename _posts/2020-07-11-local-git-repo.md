@@ -11,7 +11,7 @@ categories:
 ---
 
 
-چند سالی هست که dotfileهام رو به وسیله git مدیریت می‌کنم. روش مورد استفاده رو می‌تونید اینجا ببینید: [What do you use to manage dotfiles?](https://news.ycombinator.com/item?id=11070797). یک نمونه تر و تمیزتر از این روش هم رو وبسایت atlassian در دسترس هست: [مدیریت dotfileها به وسیله git](https://developer.atlassian.com/blog/2016/02/best-way-to-store-dotfiles-git-bare-repo/).
+چند سالی هست که dotfileهام رو به وسیله git مدیریت می‌کنم. روش مورد استفاده رو می‌تونید اینجا ببینید: [چه‌طور dotfileها را مدیریت می‌کنید؟](https://news.ycombinator.com/item?id=11070797). یک نمونه تر و تمیزتر از این روش هم رو وبسایت atlassian در دسترس هست: [مدیریت dotfileها به وسیله git](https://developer.atlassian.com/blog/2016/02/best-way-to-store-dotfiles-git-bare-repo/).
 
 
 یکی از ویژگی‌های اصلی گیت، توزیع شده بودن اون هست. توزیع شده بودن اجازه می‌ده که در نبود شبکه بشه روی پروژه کار کرد. سرعت بالاتری نسبت به cvcs‌ها بهمون میده. چون نیازی به ارتباط با سرویس دهنده مرکزی نیست. داشتن کپی های مختلف در مقابل می‌تونه ما رو در مقابل single point of failure محافظت کنه و غیره.
@@ -35,16 +35,16 @@ categories:
 کار پیچیده‌ای رو در پیش نداریم:
 
 {% highlight bash %}
-cd ~/Documents/Repos
-git init --bare config.git
-cd ~
-git remote add local ~/Documents/Repos/config.git 
+$ cd ~/Documents/Repos
+$ git init --bare config.git
+$ cd ~
+$ git remote add local ~/Documents/Repos/config.git 
 {% endhighlight %}
 
 یک مخزن ساده (bare) ایجاد می‌کنیم. به محل اصلی پروژه که فرضا ~ هست می‌ریم. و آدرس مخزن ساده ایجاد شده رو به عنوان یک remote با اسم دلخواه اضافه می‌کنیم. حالا می‌تونیم از دایرکتوری‌های خانگی مختلفی که باهاشون سر و کار داریم تغییرات رو بفرستیم به Remote محلی ایجاد شده. و بعد از اینکه مطمئن بودیم مشکلی ندارند و تداخلی رو ایجاد نکردن ببریم رو Origin یا در دایرکتوری‌های مختلف تحویل بگیریم.
 
 {% highlight bash %}
-git push local
+$ git push local
 {% endhighlight %}
 
 یا اگر قصد داشتیم یک کاربر جدید رو راه‌اندازی کنیم:
