@@ -51,5 +51,5 @@ $ git push local
 
 {% highlight bash %}
 $ git --work-tree=. --git-dir=.config clone --bare ~/Documents/Projects/LocalRepos/config.git .config
-$ git --work-tree=. --git-dir=.configt checkout
+$ git --work-tree=. --git-dir=.config checkout
 {% endhighlight %}
